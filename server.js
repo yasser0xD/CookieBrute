@@ -25,7 +25,7 @@ app.use(session({
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-// Middleware to check "stay logged in" cookie
+
 app.use((req, res, next) => {
     if (!req.session.username && req.cookies['stay-logged-in']) {
         try {
