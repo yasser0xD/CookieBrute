@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cairo';
+    src: url('/fonts/static/Cairo-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-size: 19px;
+    background-color: #f8f9fa;
+}
+
+  
